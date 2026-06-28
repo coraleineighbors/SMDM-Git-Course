@@ -4,6 +4,12 @@ output: html_document
 date: "2026-06-28"
 ---
 
+# Course Resources:
+## https://www.courses.darkpeakanalytics.com/courses/take/giting-together/quizzes/62022149-git-terminology-quiz
+## https://r4he-vc.netlify.app/version
+## https://happygitwithr.com/
+
+
 # Core Concepts of Version Control
 
 ## Essential Git Terminology:
