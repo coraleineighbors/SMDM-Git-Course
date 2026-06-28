@@ -30,9 +30,21 @@ date: "2026-06-28"
              repository
  - Merge: combines changes from 1 branch into another
       -1 example to not merge would be to keep the shiny app or website code in it's own branch and then the          microsimulation model code in the main branch
+ - Issues: In GitHub, issues are a built-in feature used to track tasks, bugs, enhancements, and questions related to a project. They act as a centralized tool 
+ - Pull request: method for contibuting changes to a project, enabling collaboration
 
 
 # Version Control for Individual Projects - "gitting" alone
  - Naming convention for branches: issue number-initials-description: "01-wm-create-func"
     - Need to open an issue in Github repository first
+    - Have to merge branch to main -> in order to do this have to be in main branch then git merge "branch 
+      name" 
+ - Doing releases at the time of different publications (conference abstract, manuscript, etc) is useful to 
+   keep track of where it was at different types
+    
+# Open-Source Models & the CHAOS Checklist
+
+
+
+
 
