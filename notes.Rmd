@@ -5,25 +5,34 @@ date: "2026-06-28"
 ---
 
 # Course Resources:
-## https://www.courses.darkpeakanalytics.com/courses/take/giting-together/quizzes/62022149-git-terminology-quiz
-## https://r4he-vc.netlify.app/version
-## https://happygitwithr.com/
+ - https://www.courses.darkpeakanalytics.com/courses/take/giting-together/quizzes/62022149-git-terminology-quiz
+ - https://r4he-vc.netlify.app/version
+ - https://happygitwithr.com/
 
 
 # Core Concepts of Version Control
 
 ## Essential Git Terminology:
-### Working Directory: local folder where you actively edit & modify files
-### Repository: a storage location (remote or local) that contains all the files, history, and version control information for a project; the greyed out files/folders; typically don't interact with
-### Staging Area: buffer for files ready to be committed, an intermediate space where changes are prepared before being committed to the repository
-### .gitignore: (sometimes hidden) special file that tells Git which files & directories to ignore when tracking changes in a repository (don't want repository history to have any sensitive information, including patient data & token keys)
-### Stage: prepare your changes to be committed to the repository, an intermediate step between modifying files and saving them in the repository's history through a commit
-### Commit: a snapshot of changes saved to the repository
-### Clone: creates a local copy of a remote repository
-### Push: uploads local commits to a remote repository
-### Pull: downloads changes from a remote repository to your local machine
+ - Working Directory: local folder where you actively edit & modify files
+ - Repository: a storage location (remote or local) that contains all the files, history, and version control                 information for a project; the greyed out files/folders; typically don't interact with
+ - Staging Area: buffer for files ready to be committed, an intermediate space where changes are prepared 
+                 before being committed to the repository
+ - .gitignore: (sometimes hidden) special file that tells Git which files & directories to ignore when tracking                changes in a repository (don't want repository history to have any sensitive information,     
+               including patient data & token keys)
+ - Stage: prepare your changes to be committed to the repository, an intermediate step between modifying files 
+          and saving them in the repository's history through a commit
+ - Commit: a snapshot of changes saved to the repository
+ - Clone: creates a local copy of a remote repository
+ - Push: uploads local commits to a remote repository
+ - Pull: downloads changes from a remote repository to your local machine
+ - Branch: an ind line of development
+ - Checkout: Git command used to switch b/t branches or restore files to a specific state in your Git 
+             repository
+ - Merge: combines changes from 1 branch into another
+      -1 example to not merge would be to keep the shiny app or website code in it's own branch and then the          microsimulation model code in the main branch
 
 
 # Version Control for Individual Projects - "gitting" alone
-
+ - Naming convention for branches: issue number-initials-description: "01-wm-create-func"
+    - Need to open an issue in Github repository first
 
