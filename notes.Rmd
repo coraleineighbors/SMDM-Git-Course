@@ -1,0 +1,23 @@
+---
+title: "Git Course"
+output: html_document
+date: "2026-06-28"
+---
+
+# Core Concepts of Version Control
+
+## Essential Git Terminology:
+### Working Directory: local folder where you actively edit & modify files
+### Repository: a storage location (remote or local) that contains all the files, history, and version control information for a project; the greyed out files/folders; typically don't interact with
+### Staging Area: buffer for files ready to be committed, an intermediate space where changes are prepared before being committed to the repository
+### .gitignore: (sometimes hidden) special file that tells Git which files & directories to ignore when tracking changes in a repository (don't want repository history to have any sensitive information, including patient data & token keys)
+### Stage: prepare your changes to be committed to the repository, an intermediate step between modifying files and saving them in the repository's history through a commit
+### Commit: a snapshot of changes saved to the repository
+### Clone: creates a local copy of a remote repository
+### Push: uploads local commits to a remote repository
+### Pull: downloads changes from a remote repository to your local machine
+
+
+# Version Control for Individual Projects - "gitting" alone
+
+
